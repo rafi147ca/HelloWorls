@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
             Log.i("pet age", "" + petYear);
             petYear = currYear - petYear;
             tView.setText("" + petYear);
+            Log.i("pet age", "" + petYear);
         }
     }
 }
